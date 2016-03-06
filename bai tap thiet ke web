@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Thông tin cá nhân: </legend>
+Ho tên:<input type="text"><br>
+Email:<input type="text"><br>
+Ngày sinh:        <input type="text"><br>
+Gioi tính:        <input type="radio" name="gt" value="Male" checked>Male
+                  <input type="radio" name="gt" value="Female" checked>Female <br>
+Trình do:<input type="checkbox" name="ckb" value="Ð?i h?c">Ð?i h?c
+<input type="checkbox" name="ckb" value="Cao d?ng">Cao dang <br>
+Hình anh cá nhân:<input type="file" name="" /><br>
+</fieldset>
+Chon khóa hoc:<select name="khoahoc" >
+<optgroup label="Multimedia">
+ <option value="Windown Media">Windown Media</option>
+ <option value="Jet Audio 9">Jet Audio 9</option>
+</optgroup>
+<optgroup label="Operation System">
+  <option value="Windown Xp">Windown Xp</option>
+  <option value="Windown Xp">Windown Xp</option>
+  <option value="Windown Víta">Windown Víta</option>
+  <option value="office">Office</option><br>
+</optgroup> 
+</select><br> 
+Góp ý:<br>
+<textarea></textarea> <br>
+<input type="submit" name="" value="Submit" />
+</datalist>
+</form>
+</body>
+</html>
