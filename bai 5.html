@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <!-- CSS -->
+  <style>
+      *{
+	     padding:0;
+		 margin:0;
+	  }
+	  body{
+	     padding:30px;
+	  }
+	  nav,h1{
+	      margin:10px;
+		  float:left;
+		  width:100%;
+	  }
+	  li{
+	      list-style:none;
+	  }
+	  
+	  .h_nav li{
+	  
+	       display:inline-block;
+		   width:130px;
+		   border-right:1px solid;
+		   background-color:#eee;
+		   float:left;
+		   
+		   
+	   }
+       .h_nav a{
+	       display:block;
+	       text-decoration:none;
+		   background-color:#aaa;
+		   text-align:center;
+		   padding-top:5px;
+		   hight:25px;
+		} 
+        .h_nav a:hover{
+		      background:#ee11aa;
+			  color:#fff;
+			  
+		} 
+		.h_nav li:last-child{
+	          border-right:none;
+	    }
+		.v_nav li{
+		      width:150px;
+			  border:1px solid;
+		}
+        .v_nav a{
+		     background:#aaa;
+			 padding:5px 10px;
+			 text_decoration:none;
+			 display:block;
+			 height:30px;
+		}
+		.v_nav a:hover{
+		      background:#ee11aa;
+			  color:#fff;
+		}	  
+		.drop_nav li{
+		      width:150px;
+			  float: left;
+			  border:1px solid;
+		
+				
+		}
+		.drop_nav a{
+		     background:#aaa;
+			 padding:5px 20px;
+			 text_decoration:none;
+			 display:block;
+			 height:30px;
+			
+			 
+		}
+		.drop_nav a:hover{
+		     background:#ee11aa;
+			 color:#fff;
+		}
+		.drop_nav li ul{
+		     display:none;
+		}
+		.drop_nav li:hover ul{
+		     display:block;
+		}
+		.fly_nav li{
+		    width:150px;
+			border:1px solid;
+			position:relative;
+		}
+		.fly_nav a{
+		    background:#aaa;
+		    padding:5px 20px;
+			text_decoration:none;
+		    display:block;
+			height:30px;
+		}
+		.fly_nav a:hover{
+		    background:#ee11aa;
+			color:#fff;
+		}
+		.fly_nav li ul{
+		    display:none;
+			position:absolute;
+			left:150px;
+			top:0;
+		}
+		.fly_nav li:hover ul{
+		    display:block;
+		}
+  </style>
+</head>
+<body>
+    <h1>Horizontal navigation bar</h1>
+    <nav class ="h_nav">
+      <ul>
+         <li><a href = "#" >HOME</a></li>	  
+		 <li><a href = "#" >NEWS</a></li>
+		 <li><a href = "#" >CONTACT</a></li>
+		 <li><a href = "#" >ABOUT</a></li>
+	  </ul>
+	 </nav>
+	 <h1>Vertical navigation bar </h1>
+    <nav class ="v_nav">
+      <ul>
+         <li><a href = "#" >HOME</a></li>	  
+		 <li><a href = "#" >NEWS</a></li>
+		 <li><a href = "#" >CONTACT</a></li>
+		 <li><a href = "#" >ABOUT</a></li>
+	  </ul>
+	 </nav>
+	 <h1>Dropdown navigation bar </h1>
+	 <nav class ="drop_nav">
+      <ul>
+         <li><a href = "#" >HOME</a></li>	  
+		 <li><a href = "#" >NEWS</a>
+		     <ul>
+		         <li><a href = "#" >ITEM 1
+				 </a></li>
+				 <li><a href = "#" >ITEM 2
+				 </a></li>
+				 <li><a href = "#" >ITEM 3
+				 </a></li>
+				 <li><a href = "#" >ITEM 4
+				 </a></li>
+			 </ul>	 
+		 </li>
+		 <li><a href = "#" >CONTACT</a></li>
+		 <li><a href = "#" >ABOUT</a></li>
+	  </ul>
+	 </nav>
+	 <h1>Vertical Flyout navigation bar </h1>
+	 <nav class ="fly_nav">
+      <ul>
+         <li><a href = "#" >HOME</a></li>	  
+		 <li><a href = "#" >NEWS</a>
+		     <ul>
+		         <li><a href = "#" >ITEM 1
+				 </a></li>
+				 <li><a href = "#" >ITEM 2
+				 </a></li>
+				 <li><a href = "#" >ITEM 3
+				 </a></li>
+				 <li><a href = "#" >ITEM 4
+				 </a></li>
+			 </ul>	 
+		 </li>
+		 <li><a href = "#" >CONTACT</a></li>
+		 <li><a href = "#" >ABOUT</a></li>
+	  </ul>
+	 </nav>
+	 
